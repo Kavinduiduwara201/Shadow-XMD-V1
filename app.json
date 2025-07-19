@@ -1,5 +1,5 @@
 {
-  "name": "❤️𝐑_𝐎_𝐁_𝐈_𝐍❤️",
+  "name": "❤️ShadowXMD❤️",
   "description": "Powerful whatsapp bot made by sihilel",
   "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
   "keywords": ["bot"],
@@ -12,12 +12,11 @@
     },  
 
     "ALIVE_IMG": {
-      "description": "Put your alive img here.",
+      "description": "https://files.catbox.moe/k2s1a1.png",
       "required": true
     },
     
-    "ALIVE_MSG": {
-      "description": "Put your alive msg here.",
+    "ALIVE_MSG": {      "description": "╭━━〔 🤖 ShadowXMD Bot 〕━━╮\n\n✅ Bot is *Online & Active!*\n⚙️ System: Stable\n📡 Status: Connected\n\n👨‍💻 Developers: Kavindu Iduwara & Ishan Nimsara\n╰━━━━━━━━━━━━━━━━━━━━━━━╯",
       "required": true
     }   
 },
