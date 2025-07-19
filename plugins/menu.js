@@ -57,42 +57,44 @@ cmd(
         }
       }
 
-      let madeMenu = `👋 *Hello  ${pushname}*
+      let madeMenu = `👋 *Hello User, ${pushname}*
 
 
-| *MAIN COMMANDS* |
-    ▫️.alive
-    ▫️.menu
-    ▫️.ai <text>
-    ▫️.system
-    ▫️.owner
-| *DOWNLOAD COMMANDS* |
-    ▫️.song <text>
-    ▫️.video <text>
-    ▫️.fb <link>
-| *GROUP COMMANDS* |
-${menu.group}
-| *OWNER COMMANDS* |
-    ▫️.restart
-    ▫️.update
-| *CONVERT COMMANDS* |
-    ▫️.sticker <reply img>
-    ▫️.img <reply sticker>
-    ▫️.tr <lang><text>
-    ▫️.tts <text>
-| *SEARCH COMMANDS* |
-${menu.search}
+*📌 MAIN COMMANDS*  
+▫️ .alive  
+▫️ .menu  
+▫️ .ai <text>  
+▫️ .system  
+▫️ .owner  
 
+*📥 DOWNLOAD COMMANDS*  
+▫️ .song <text>  
+▫️ .video <text>  
+▫️ .fb <link>  
 
-🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋🥶
+*👥 GROUP COMMANDS*  
+▫️ .add <number>  
+▫️ .kick <@tag>  
+▫️ .promote <@tag>  
+▫️ .demote <@tag>  
 
-> ROBIN MENU MSG
+*🔧 OWNER COMMANDS*  
+▫️ .restart  
+▫️ .update  
+
+*🔄 CONVERT COMMANDS*  
+▫️ .sticker <reply img>  
+▫️ .img <reply sticker>  
+▫️ .tr <lang> <text>  
+▫️ .tts <text>  
+
+👨‍💻 *Developers:* Kavindu Iduwara & Ishan Nimsara
 `;
       await robin.sendMessage(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20menu.jpg",
+            url: "https://files.catbox.moe/rsp7v9.png",
           },
           caption: madeMenu,
         },
