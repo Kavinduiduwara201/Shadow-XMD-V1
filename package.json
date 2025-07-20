@@ -1,12 +1,12 @@
 {
   "name": "Shadow XMD",
   "version": "1.0.0",
-  "description": "*🤖 ShadowXMD Bot*\n\nAn advanced multi-function WhatsApp bot built for speed and simplicity. From AI chat, music downloads, and media tools to auto-replies and group features – ShadowXMD has it all.\n👨‍💻 Developers: Kavindu Iduwara & Ishan Nimsara\n💡 Fast | Smart | Powerful  ",
+  "description": "*🤖 ShadowXMD Bot*\n\nAn advanced multi-function WhatsApp bot built for speed and simplicity. From AI chat, music downloads, and media tools to auto-replies and group features – ShadowXMD has it all.\n👨‍💻 Developers: Kavindu Iduwara & Ishan Nimsara\n💡 Fast | Smart | Powerful",
   "main": "index.js",
-
-    "start": "pm2 start index.js --deep-monitoring --attach --name ❤️ShadowXMD❤️",
-    "stop": "pm2 stop ❤️ShadowXMD ❤️",
-    "restart": "pm2 restart ❤️ShadowXMD❤️"
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name \"ShadowXMD\"",
+    "stop": "pm2 stop \"ShadowXMD\"",
+    "restart": "pm2 restart \"ShadowXMD\""
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
