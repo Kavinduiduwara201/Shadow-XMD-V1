@@ -9,7 +9,7 @@
     "restart": "pm2 restart ShadowXMD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "github:Hupa11/Asithamdb",
+    "@whiskeysockets/baileys": "6.7.18",
     "@adiwajshing/keyed-db": "latest",
     "pino": "latest",
     "pm2": "latest",
