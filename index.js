@@ -34,7 +34,7 @@ const ownerNumber = config.OWNER_NUM;
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + "/auth_info_baileys/creds.json")) {
   if (!config.SESSION_ID)
-    return console.log("Shadow XMD=tSF1VDpC#nlwoExK2lAGCOzVjJ66xLoDL84AlQPhXDed2DSlZA6I");
+    return console.log("tSF1VDpC#nlwoExK2lAGCOzVjJ66xLoDL84AlQPhXDed2DSlZA6I");
   const sessdata = config.SESSION_ID;
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`);
   filer.download((err, data) => {
